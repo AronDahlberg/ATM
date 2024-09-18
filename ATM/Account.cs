@@ -23,8 +23,8 @@
 		}
 		public void Withdraw (double amount)
 		{
-            if (amount < 0.0) { throw new ArgumentException("Invalid amount"); }
-            Balance -= amount;
+			if (amount < 0.0) { throw new ArgumentException("Invalid amount"); }
+			Balance -= amount;
 		}
         public override string ToString()
 		{
