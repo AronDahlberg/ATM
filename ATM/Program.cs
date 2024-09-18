@@ -1,6 +1,4 @@
-﻿using System.Security.Principal;
-
-namespace ATM
+﻿namespace ATM
 {
     internal class Program
     {
