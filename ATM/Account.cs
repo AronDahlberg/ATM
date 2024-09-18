@@ -11,8 +11,8 @@
 					? value
 					: _balance; }
 		}
-        public string AccountNumber { get; }
-        public Account(string accountNumber)
+		public string AccountNumber { get; }
+		public Account(string accountNumber)
 		{
 			AccountNumber = accountNumber;
 		}
@@ -26,7 +26,7 @@
 			if (amount < 0.0) { throw new ArgumentException("Invalid amount"); }
 			Balance -= amount;
 		}
-        public override string ToString()
+		public override string ToString()
 		{
 			return $"{AccountNumber}: {Balance}";
 		}
